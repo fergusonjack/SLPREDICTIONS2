@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a8ceb3-37bc-4239-a501-5a60b8717c77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getCurrPay.php" afterPath="$PROJECT_DIR$/getCurrPay.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
               <caret line="84" column="72" lean-forward="true" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getRPI.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getRPI.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getCurrPay.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getCurrPay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="773">
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,7 +147,6 @@
         <option value="$PROJECT_DIR$/css/chartist.min.js" />
         <option value="$PROJECT_DIR$/css/chartist.min.css" />
         <option value="$PROJECT_DIR$/js/graphing.js" />
-        <option value="$PROJECT_DIR$/getCurrPay.php" />
         <option value="$PROJECT_DIR$/myStyle.css" />
         <option value="$PROJECT_DIR$/getRpiS.js" />
         <option value="$PROJECT_DIR$/ExcelPhp/excelProc.php" />
@@ -138,6 +158,7 @@
         <option value="$PROJECT_DIR$/graphing.js" />
         <option value="$PROJECT_DIR$/js/canvasjs.min.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/getCurrPay.php" />
       </list>
     </option>
   </component>
@@ -340,12 +361,12 @@
       <workItem from="1505665167416" duration="1152000" />
       <workItem from="1510081170162" duration="691000" />
       <workItem from="1510083912471" duration="92000" />
-      <workItem from="1510089179571" duration="36000" />
+      <workItem from="1510089179571" duration="556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133416000" />
+    <option name="totallyTimeSpent" value="133936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -589,7 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getRPI.php" />
     <entry file="file://$PROJECT_DIR$/ExcelPhp/PHPExcel/Reader/Excel2007.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -613,7 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getCurrPay.php" />
     <entry file="file://$PROJECT_DIR$/graphing2.js" />
     <entry file="file://$PROJECT_DIR$/webScraper.js" />
     <entry file="file://$PROJECT_DIR$/css/chartist.min.css">
@@ -659,6 +678,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="84" column="72" lean-forward="true" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getRPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCurrPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
