@@ -1,0 +1,44 @@
+#sideBar{
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#padder {
+    padding: 5px;
+}
+
+#padder-bottom {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#dropDown {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#repadder {
+    /* Other styling.. */
+    text-align: right;
+    clear: both;
+    margin-right:15px;
+    float: none; /* if you had floats before? otherwise inline-block will behave differently */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#textBox1 {
+    /* Double-sized Checkboxes *
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+}
+
+
+.center {
+    text-align: center;
+}
