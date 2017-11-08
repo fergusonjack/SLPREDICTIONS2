@@ -42,7 +42,7 @@ header('Content-type: application/vnd.ms-excel');
 // It will be called file.xls
 header('Content-Disposition: attachment; filename="file.xls"');
 
-// Write file to the browser
-$objWriter->save('php://output');
+$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+$objWriter->save("exF/" .  preg_replace("/[^0-9]/" , "" , $_GET["IDNUM"]) . ".xlsx");
 
 ?>

@@ -75,7 +75,7 @@ $(document).ready( function () {
                 IDNUM: identNum
             }
             , function () {
-                $("#mainNavBar").append('<li><a href=/mainwebsite/exF/' + identNum + '.xlsx>Download .xlsx</a></li>')
+                $("#mainNavBar").append('<li><a href=/SLPREDICTIONS2/exF/' + identNum + '.xlsx>Download .xlsx</a></li>')
                 //$(document).append().html(data)
         })
     })
@@ -156,6 +156,3 @@ function ajaxRequest() {
     }
     return request
 }
-
-
-
