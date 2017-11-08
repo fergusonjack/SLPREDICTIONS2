@@ -12,6 +12,7 @@ $(document).ready(function () {
         backgroundColor: "#eeeeee",
         data: [
             {
+                xValueType: "dateTime",
                 type: "line",
                 dataPoints: datalist2
             }
@@ -25,6 +26,7 @@ $(document).ready(function () {
         backgroundColor: "#eeeeee",
         data: [
             {
+                xValueType: "dateTime",
                 type: "line",
                 dataPoints: datalist
             }
@@ -94,13 +96,13 @@ function graphReDraw() {
             totalpaid = totalpaid + payment
         }
         var taxable = graduateSal - repaymentThres;
-
         if (total >= 0) {
-            datalist[i] = ({x: startYear++, y: total})
-            datalist2[i] = ({x: startYear, y: totalpaid})
+            startYear++;
+            datalist[i] = ({x: (new Date((startYear).toString() + "/01/01").getTime()) , y: Math.round(total)})
+            datalist2[i] = ({x: (new Date((startYear).toString() + "/01/01").getTime()), y: Math.round(totalpaid)})
         } else {
-            datalist[i] = ({x: startYear++, y: 0})
-            datalist2[i] = ({x: startYear, y: totalpaid})
+            datalist[i] = ({x: (new Date((startYear++).toString() + "/01/01").getTime()), y: 0})
+            datalist2[i] = ({x: (new Date((startYear).toString() + "/01/01").getTime()) , y: Math.round(totalpaid)})
         }
     }
     chart.render();

@@ -87,4 +87,5 @@
         $var = htmlentities($var);
         return stripslashes($var);
     }
+
 ?>
