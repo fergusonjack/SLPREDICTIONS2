@@ -88,7 +88,11 @@ function graphReDraw() {
     for (i = 0; i <= 25; i++) {
         graduateSal = graduateSal * ((payinc + 100) / 100);
         repaymentThres = repaymentThres * ((repaymentThresInc + 100) / 100);
-        payment = (graduateSal - repaymentThres) * (repayrate/100);
+        if (repaymentThres<graduateSal) {
+            payment = (graduateSal - repaymentThres) * (repayrate / 100);
+        } else {
+            payment = 0;
+        }
         total = total * ((totalMargin + 100)/100)
         total = total-payment
         
