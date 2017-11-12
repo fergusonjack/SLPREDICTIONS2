@@ -187,11 +187,10 @@
 
 
 
-                <div class="col-md-8 graphsSide"  style="padding-bottom: 80px" id="sideBar">
+                <div class="col-md-8 graphsSide" id="graphContainermain1" style="padding-bottom: 80px" id="sideBar">
                     <div id="chartContainer" style="height: 50%; width: 100%;"></div>
                     <div id="chartContainer2" style="height: 50%; width: 100%;"></div>
                     <div class="col-md-5"></div><div class="col-md-2"><button id="modalButton" style="padding: 20px" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Add another graph</button></div><div class="col-md-5"></div>
-
                 </div>
 
             </div>

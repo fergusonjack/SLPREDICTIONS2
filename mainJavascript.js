@@ -23,6 +23,10 @@ $('#inlineCheckbox1').click(function() {
     }
 });
 
+charts = 3;
+chartsArr = [];
+varTest = [{x: 1, y: 2} , {x: 2, y: 3}];
+
 $(document).ready(function(){
     $('#modalbtn').click(function() {
         if (!$("input[name='x']:checked").val()) {
@@ -30,7 +34,21 @@ $(document).ready(function(){
             return false;
         }
         else {
-            $("#chartContainer2").append('<div id="chartContainer" style="height: 50%; width: 100%;">appended</div>')
+            tmp = "chartContainer" + charts;
+            $("#graphContainermain1").append('<div id='+tmp+' style="height: 50%; width: 100%;">appended</div>')
+
+            chartsArr.add(new CanvasJS.Chart(tmp, {
+                title: {
+                    text: "Total paid"
+                },
+                backgroundColor: "#eeeeee",
+                data: [
+                    {
+                        type: "line",
+                        dataPoints: varTest
+                    }
+                ]
+            }));
         }
     });
 });
